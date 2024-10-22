@@ -1,9 +1,12 @@
 public class Inventory
 {
-  public List<Item> Items = [];
+  public List<Item> Items = new();
 
   public void Display()
   {
-    
+    for (int i = 0; i < Items.Count; i++)
+    {
+        Console.WriteLine(Items[i].Name);
+    }
   }
 }

@@ -6,6 +6,6 @@ public class Character
 
   public Character()
   {
-    
+    Backpack = new();
   }
 }
